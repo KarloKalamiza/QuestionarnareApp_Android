@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/paddingMain"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="@dimen/marginTop"
+        android:layout_marginEnd="@dimen/marginRight"
+        android:enabled="false"
+        android:text="@string/next" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvQuestions"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/questionHeight"
+            android:layout_marginTop="@dimen/marginTop"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textSize="@dimen/textSize"
+            tools:text="Question" />
+
+        <EditText
+            android:imeOptions="flagNoExtractUi"
+            android:id="@+id/etAnswer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginTop"
+            android:hint="@string/your_answer"
+            android:textAlignment="center" />
+    </LinearLayout>
+</LinearLayout>

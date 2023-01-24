@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="marginTop">10dp</dimen>
+    <dimen name="questionHeight">35dp</dimen>
+    <dimen name="marginRight">15dp</dimen>
+    <dimen name="paddingMain">10dp</dimen>
+    <dimen name="textSize">30sp</dimen>
+    <dimen name="timerSize">30sp</dimen>
+</resources>
